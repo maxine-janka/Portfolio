@@ -1,0 +1,46 @@
+header {
+  border: 1px solid black;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 10px 236px;
+}
+.display-photo {
+  min-width: 200px;
+  min-height: 200px;
+}
+.about-me-section {
+  margin: 10px 236px;
+}
+.project-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 236px;
+  padding: 22px;
+  border-radius: 8px;;
+}
+.project-image {
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 8px;
+}
+.project-descr {
+  width: 500px;
+}
+.project-button {
+  width: 150px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+
+div {
+  border: 1px solid black;
+}
+footer {
+  border: 1px solid black;
+  margin: 10px 236px;
+}
