@@ -49,6 +49,9 @@ header {
   min-width: 200px;
   min-height: 200px;
   border-radius: 8px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .project-descr {
   width: 500px;
@@ -66,6 +69,17 @@ header {
   color: #fff;
   font-weight: 600;
 }
+
+.weather {
+  background-image: url('/images/weather_forecast.png');
+}
+.recipe {
+  background-image: url('/images/recipe_generator.png');
+}
+.clock {
+  background-image: url('/images/world_clock.png');
+} 
+
 
 div {
   border: 1px solid black;
