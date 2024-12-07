@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Maxine Janka | Portfolio</title>
 </head>
 <body>
@@ -14,81 +14,61 @@
     <header>
       <div class="display-photo"></div>
       <div header-text>
-      <h1>Hey I'm Max</h1>
-      <h2>I'm an aspiring full-stack developer based out of <span>Melbourne, Australia</span></h2>
+      <h1>Hey, I'm Max</h1>
+      <h2>I'm an aspiring full-stack developer <br />based out of <span>Melbourne, Australia</span></h2>
     </div>
     </header>
-
     <div class="about-me-section">
-      <h4>A little bit about me</h4>
-      <p class="about-me-text">
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      </p>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      </p>
-
+      <h4 class="about-me-title">A little bit about me</h4>
+      <p class="about-me-text">My curiosity and desire to express my creativity are what attracted me to learn how to code. It’s been a challenging but rewarding experience as it has allowed me to bring my creative ideas to life, such as my <span>Weather Forecaster</span> app.</p>
+      <p class="about-me-text">Working on collaborative projects is what motivated me to enrol in a software engineering course with <span>Holberton School Australia</span>. Committing to a full-time course has been a a significant step-up compared to self-learning online, but I'm enjoying the process and embracing the challenge with a growth mindset.</p>
+      <p class="about-me-text">My background working in healthcare and caregiving has taught me a lot about understanding human needs. I’m eager to bring those skills to the technology sector and a software product near you.</p>
     </div>
- 
+    <div class="project-section-container">
       <div class="project-card-container">
-        <div class="project-image weather">
-          image        
-        </div>
         <div class="project-descr">
-          <h4>Weather Forecast</h4>
-          <p>A vanulla JavaScript weather forecast application with API integration displaying 5-day forcast in major cities worldwide.</p>
+          <h4 class="project-title">Weather Forecaster</h4>
+          <p>Search the weather for anny major city around the world. Built using JavaScript and API integration.</p>
         </div>
-        <a href="https://vanilla-weather-forecast-app.netlify.app" target="_blank">
+          <a href="https://vanilla-weather-forecast-app.netlify.app" class="project-link" target="_blank" >
           <div class="project-button">View project</div>
         </a>
       </div>
-
       <div class="project-card-container">
-        <div class="project-image recipe">
-          image        
-        </div>
         <div class="project-descr">
-        <h4>Recipe Generator</h4>
+          <h4 class="project-title">AI Recipe Generator</h4>
+          <p>Not sure what to cook for dinner tonight? Use this to generate a recipe using any ingredients you have in the fridge.</p>
         </div>
-        <a href="https://ai-shecodes-recipe-generator.netlify.app" target="_blank">
-          <div class="project-button">View project</div>
+        <a href="https://ai-shecodes-recipe-generator.netlify.app" class="project-link" target="_blank"> 
+        <div class="project-button">View project</div>
         </a>
       </div>
-
       <div class="project-card-container">
-        <div class="project-image clock">
-          image        
-        </div>
         <div class="project-descr">
-          <h4>World Clock</h4>
-         <p>Integrates an moment.js library to display the local time in multiple locations.</p>
+          <h4 class="project-title">World Clock</h4>
+          <p> A exercise in integrating the Moment.js library to display the local time in multiple locations around the world.</p>
         </div>
-        <a href="https://shecodes-world-clock-plusaddon.netlify.app" target="_blank">
-          <div class="project-button">View project</div>
-          </a>
-        </div>
-
-      <div class="project-card-container">
-        <div class="project-image printf">
-          image        
-        </div>
-        <div class="project-descr">
-          <h4>Custom printf</h4>
-         <p>A group project that replicated some features of printf (3) in C programming.</p>
-        </div>
-         <a href="" target="_blank">
-          <div class="project-button">View project</div>
+        <a href="https://shecodes-world-clock-plusaddon.netlify.app" class="project-link" target="_blank">
+        <div class="project-button">View project</div>
         </a>
-    </div>
-    
-
-    <footer>
-      <h4>Say Hello!</h4>
-      <p>Email: maxinejanka@gmail.com</p>
-      <p>LinkedIn</p>
-      <p>GitHub</p>
-    </footer>
-
+      </div>
+      <div class="project-card-container">
+        <div class="project-descr">
+          <h4 class="project-title">Custom printf</h4>
+          <p>A group project that replicates some features of printf (3) in C programming.</p>
+        </div>
+        <a href="https://github.com/maxine-janka/holbertonschool-printf" class="project-link" target="_blank">
+        <div class="project-button">View project</div>
+        </a>
+      </div>
+   </div>
+   <footer>
+      <h4 class="footer-title">Say hello</h4>
+      <div class="footer-links-container">
+        <a href="https://www.linkedin.com/in/maxine-janka-8b0594299" class="footer-links" target="_blank">LinkedIn</a>
+        <a href="https://github.com/maxine-janka" class="footer-links" target="_blank">GitHub</a>
+      </div>
+  </footer>
   </main>
-</body>
+ </body>
 </html>
