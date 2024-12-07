@@ -38,6 +38,11 @@ header {
     text-align: center;
   }
 }
+h4.about-me-title {
+  font-size: 40px;
+  color: #212227;
+  margin: 0;
+}
 .about-me-section {
   display: flex;
   flex-direction: column;
@@ -46,11 +51,6 @@ header {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
-}
-h4.about-me-title {
-  font-size: 40px;
-  color: #212227;
-  margin: 0;
 }
 .about-me-text {
   font-size: 24px;
@@ -83,6 +83,13 @@ h4.project-title {
   max-width: 700px;
   text-align: left; 
 }
+a.about-me-links {
+  color: #212227;
+  text-decoration: none;
+}
+a.about-me-links:hover {
+  text-decoration: underline;
+}
 p {
   font-size: 20px;
   font-weight: 300;
@@ -104,7 +111,6 @@ p {
   transition: ease-in-out 3ms;
   text-decoration: none;
 }
-
 a.project-link {
   text-decoration: none;
 }
