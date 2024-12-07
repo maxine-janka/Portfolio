@@ -89,6 +89,7 @@ a.about-me-links {
 }
 a.about-me-links:hover {
   text-decoration: underline;
+  transition: ease-in-out 3ms;
 }
 p {
   font-size: 20px;
